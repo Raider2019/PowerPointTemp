@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+background:  url(../img/Trump.png)  center top/1440px 946px no-repeat  #FCF9F5;
+
+
+height: 100%;
+       }
+.container{
+  
+    display: flex;
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+
+
