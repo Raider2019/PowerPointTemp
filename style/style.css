@@ -82,11 +82,15 @@ line-height: 75px;
 }
 .start_block_img    {
 
-display: grid;
-grid-template-columns: repeat(2,1fr);
 
 }
-.img_p{
-    grid-column: span 1;
-    width: 100%;
+.p1{
+    width: 50%;
+    height: 100vh;
+    background: url(../img/p1.png) left/cover;
+}
+.p2{
+    width: 50%;
+    height: 100vh;
+    background: url(../img/p1.png) right/cover;
 }
