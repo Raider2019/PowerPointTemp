@@ -135,12 +135,14 @@ max-width: 670px;
     }
 .p1{
 
+top: 0;
+left: 0;
     z-index: 1;
 }
 .p2{
     position: absolute;
-    top:30px;
-    left: 600px;
+    top:5%;
+    left:44%;
 z-index: 2;
 }
     
