@@ -9,6 +9,7 @@ html{
 
 body{
     background:   #FCF9F5;
+    font-family: 'Rubik', sans-serif;
 
 
 height: 100%;
@@ -47,11 +48,20 @@ header{
 
 .menu_row ul{
     list-style: none;
+   ;
 }
 .menu_row ul li{
     display: inline;
-    padding:  10px;
-    color: blue;
+    padding-right: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    
+    font-family: 'Poppins', sans-serif;
+
+    
+    color: rgba(255, 255, 255, 0.65);
 }
 .content_wrapper{
     max-width: 1350px ;
@@ -61,36 +71,76 @@ header{
 .start_block{
     background: url(../img/Trump.png)  no-repeat top;
 background-size: 100%;
-    height: 100vh;
+    height: 946px;
    
 }
-
-.start_block_title{
-    padding-top: 108px;
-    text-align: center;
-    color: white;
-    font-style: normal;
+.btn_purhage{
+    width: 150px;
+    background: #FE5933;
+border-radius: 9px;
+}
+.purhage_title{
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
 font-weight: 400;
-font-size: 24px;
-line-height: 75px;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 17px;
 
-/* or 125% */
+/* identical to box height, or 138% */
+
+color: #FFFFFF;
+}
+.start_block_title{
+    max-width: 772px;
+    margin: 0 auto;
+}
+.start_block_title h1{
+
+    
+    padding-top: 108px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    
+    /* or 125% */
+    text-align: center;
+        color:#FCF9F5
+    
+    
+
+
 }
 .wrapper_img_start_block{
     max-width: 1320px;
     margin: 0 auto;
+    position: relative;
 }
 .start_block_img    {
+   
+ 
 
-
+top: 0;
+left: 0;
+margin-top: 122px;
+transform: translateY(-100%);
 }
+.start_block_img    img{
+max-width: 670px;
+    }
 .p1{
-    width: 50%;
-    height: 100vh;
-    background: url(../img/p1.png) left/cover;
+
+    z-index: 1;
 }
 .p2{
-    width: 50%;
-    height: 100vh;
-    background: url(../img/p1.png) right/cover;
+    position: absolute;
+    top:30px;
+    left: 600px;
+z-index: 2;
 }
+    
