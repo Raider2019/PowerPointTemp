@@ -142,6 +142,7 @@ header {
     top: 0;
     position: absolute;
     transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
     display: flex;
  justify-content: center;
     
