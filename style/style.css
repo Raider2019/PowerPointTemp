@@ -219,10 +219,90 @@ header {
     border: 30px solid white;
     border-radius: 30px;
     box-shadow: 0px 42px 38px rgba(0, 0, 0, 0.07);
+
 }
 
 .inner_cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.utility_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.authent_pages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer{
+    background: url(../img/bg_footer.png);
+   background-size:cover;
+   height: 613px;
+   color: white;
+} 
+.content{
+    flex:1 1 auto;
+}
+.footer_wrapper_content{
+    
+    width: 1320px;
+    margin: 0 auto;
+}
+.top_footer_content{
+    margin-top: 90px;
+    height: 370px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);;
+
+    display: flex;
+}
+.left_content{
+    width: 614px;
+    margin-right: 92px;
+}
+.left_title{
+    font-family: 'Rubik',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 65px;
+}
+.left_text{
+    width:  455px;
+    font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+}
+.left_footer_btn{
+    margin-top: 24px;
+    background-color: #FE5933;
+    width: 175px;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-bottom: 17px;
+    border-radius:10px;
+} 
+.bottom_footer_content{
+    position: relative;
+display: flex;
+justify-content: center;
+    
+}
+.footer_text{
+
+    position: absolute;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    top: 103px ;
+
 }
