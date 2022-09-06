@@ -242,7 +242,7 @@ header {
 footer{
     background: url(../img/bg_footer.png);
    background-size:cover;
-   height: 613px;
+   height: auto;
    color: white;
 } 
 .content{
@@ -297,13 +297,13 @@ justify-content: center;
 }
 .footer_text{
 
-    position: absolute;
+
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    top: 103px ;
+  
 
 }
 @media only screen and (max-width:1200px)  {
@@ -321,6 +321,20 @@ justify-content: center;
         justify-content: center;
         height: auto;
     }
+
+    .left_title {
+        font-family: 'Rubik',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .left_text {
+    
+        font-size: 12px;
+    
+    }
+
  
 }
 @media only screen and (max-width:768px)  {
@@ -378,37 +392,13 @@ justify-content: center;
 
 
 }
-.left_title {
-	font-family: 'Rubik',sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 32px;
-	line-height: 45px;
-}
-.left_text {
 
-	font-size: 12px;
 
-}
-.left_footer_btn {
-	margin-top: 24px;
-	background-color: #FE5933;
-	width: 175px;
-	padding-left: 35px;
-	padding-top: 15px;
-	padding-right: 35px;
-	padding-bottom: 17px;
-	border-radius: 10px;
-}
 .top_footer_content {
 
 
 flex-wrap:wrap
 
 }
-.footer_text {
 
-
-	top: 10px;
-}
 }
